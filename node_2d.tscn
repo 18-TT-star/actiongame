@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://di3f3ler326wc"]
 
 [ext_resource type="Script" uid="uid://juijieoqlofv" path="res://character_body_2d.gd" id="1_0e48y"]
-[ext_resource type="Texture2D" uid="uid://bhtu7fhs1mv1t" path="res://character_tozoku_green.png" id="1_wtcfe"]
+[ext_resource type="Texture2D" uid="uid://6joqojht11b0" path="res://ゲーム絵/character_tozoku_green.png" id="1_wtcfe"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wtcfe"]
 size = Vector2(364, 498.375)
@@ -26,6 +26,7 @@ position_smoothing_enabled = true
 [node name="Node2D" type="Node2D" parent="CharacterBody2D" unique_id=1259024571]
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D/Node2D" unique_id=756218697]
+position = Vector2(1, 0)
 texture = ExtResource("1_wtcfe")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=440672101]

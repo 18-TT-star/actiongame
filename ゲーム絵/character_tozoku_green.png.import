@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bhtu7fhs1mv1t"
-path="res://.godot/imported/character_tozoku_green.png-30b60c42479bb3939ba4e39107d1d558.ctex"
+uid="uid://6joqojht11b0"
+path="res://.godot/imported/character_tozoku_green.png-4756fa3c4a98b097960635bc49b1edda.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://character_tozoku_green.png"
-dest_files=["res://.godot/imported/character_tozoku_green.png-30b60c42479bb3939ba4e39107d1d558.ctex"]
+source_file="res://ゲーム絵/character_tozoku_green.png"
+dest_files=["res://.godot/imported/character_tozoku_green.png-4756fa3c4a98b097960635bc49b1edda.ctex"]
 
 [params]
 
