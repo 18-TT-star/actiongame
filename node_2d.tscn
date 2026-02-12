@@ -2,6 +2,8 @@
 
 [ext_resource type="Script" uid="uid://juijieoqlofv" path="res://character_body_2d.gd" id="1_0e48y"]
 [ext_resource type="Texture2D" uid="uid://6joqojht11b0" path="res://ゲーム絵/character_tozoku_green.png" id="1_wtcfe"]
+[ext_resource type="Texture2D" uid="uid://7g4v7wxyufsf" path="res://ゲーム絵/kogeki_cut_01.png" id="2_left"]
+[ext_resource type="Texture2D" uid="uid://bmbnqrl8anwom" path="res://ゲーム絵/kogeki_cut_02.png" id="3_right"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wtcfe"]
 size = Vector2(364, 498.375)
@@ -26,8 +28,18 @@ position_smoothing_enabled = true
 [node name="Node2D" type="Node2D" parent="CharacterBody2D" unique_id=1259024571]
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D/Node2D" unique_id=756218697]
-position = Vector2(1, 0)
+position = Vector2(2, 0)
 texture = ExtResource("1_wtcfe")
+
+[node name="KogekiLeft" type="Sprite2D" parent="CharacterBody2D/Node2D" unique_id=756218698]
+visible = false
+position = Vector2(-300, 0)
+texture = ExtResource("2_left")
+
+[node name="KogekiRight" type="Sprite2D" parent="CharacterBody2D/Node2D" unique_id=756218699]
+visible = false
+position = Vector2(300, 0)
+texture = ExtResource("3_right")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=440672101]
 position = Vector2(5.9541016, 1822.2047)
